@@ -1,17 +1,91 @@
+/*
+Ordenar cajas
+Agregar Color
+*/
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+
 body{
-    background: rgb(0,27,36);
-    background: linear-gradient(180deg, rgba(0,27,36,1) 0%, rgba(9,105,121,1) 35%, rgba(0,168,208,1) 76%, rgba(0,206,255,1) 100%) no-repeat;
-    font-family: 'Louis George Cafe\'';
-    font-weight: 500;
+    background: #FBFCFC;
+    font-family: 'Catamaran';
+    font-weight: Bolder;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #21618C;
 }
 
 section{
     width: 85%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+button{
+    width: 100%;
+    margin: 0.4em 0;
+    padding: 0.8em;
+    background: none;
+    border-radius: 8px;
+    border: solid #21618C 2px;
+}
+
+
+/*Class Element*/
+.block{
+    width: 90%;
+    padding: 1em;
+    margin: 15% 0;
+}
+
+.title{
+    margin: 0.6em 0;
+}
+
+.first h5 {
+    margin-bottom: 0.4em;
+}
+
+.card{
+    width: 85%;
+    margin: 10px;
+    padding: 1em;
+    text-align: center;
+    background: #ECF0F1;
+    border-radius: 10px;
+}
+
+.card__text{
+    margin: 10px 0;
+}
+
+.card-slide{
+    display: flex;
+    box-sizing: unset;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.big{
+    font-size: 26px;
+}
+
+.hr{
+    margin-bottom: 12px;
+}
+
+#slide{
+    transition:ease all 600ms;
 }
