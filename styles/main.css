@@ -11,15 +11,41 @@ Agregar Color
 
 
 body{
-    background: #FBFCFC;
+    background: #000515;
     font-family: 'Catamaran';
     font-weight: Bolder;
     font-size: 18px;
+    color: #fff;
 }
 
 a{
     text-decoration: none;
     color: #21618C;
+}
+
+header{
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: #000515;
+    box-shadow:  18px 18px 40px #00030e;
+    position: fixed;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    list-style-type: none;
+    margin: 5px;
+}
+
+header nav ul li a{
+    color:#EBEBEB;
 }
 
 section{
