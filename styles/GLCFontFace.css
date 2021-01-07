@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafeLight.eot');
+    src: url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafeLight.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafeLight.woff2') format('woff2'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafeLight.woff') format('woff'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafeLight.ttf') format('truetype'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafeLight.svg#LouisGeorgeCafeLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe-Bold.eot');
+    src: url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe-Bold.woff2') format('woff2'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe-Bold.woff') format('woff'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe-Bold.ttf') format('truetype'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe-Bold.svg#LouisGeorgeCafe-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe.eot');
+    src: url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe.woff2') format('woff2'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe.woff') format('woff'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe.ttf') format('truetype'),
+        url('../assets/fonts/LouisGeorgeCafe/LouisGeorgeCafe.svg#LouisGeorgeCafe') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
