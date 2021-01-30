@@ -1,0 +1,194 @@
+
+/* Añadir animacion
+Anadir imagenes
+Añadir diseño header */
+
+
+:root{
+    --card-dark:#166088;
+    --card-clear:#4a6fa5;
+    --section-color:#f8f7ff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    background: rgb(171,196,255);
+    background: linear-gradient(140deg, rgba(171,196,255,1) 0%, rgba(182,204,254,1) 5%, rgba(193,211,254,1) 15%, rgba(194,211,254,1) 25%, rgba(204,219,253,1) 35%, rgba(215,227,252,1) 50%, rgba(226,234,252,1) 75%, rgba(237,242,251,1) 86%, rgba(255,255,255,1) 100%);
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+    background: rgb(171,196,255);
+    background: linear-gradient(140deg, rgba(171,196,255,1) 0%, rgba(182,204,254,1) 5%, rgba(193,211,254,1) 15%, rgba(194,211,254,1) 25%, rgba(204,219,253,1) 35%, rgba(215,227,252,1) 50%, rgba(226,234,252,1) 75%, rgba(237,242,251,1) 86%, rgba(255,255,255,1) 100%);
+    -webkit-box-shadow: 0px 4px 105px -28px rgba(116,154,242,1);
+    -moz-box-shadow: 0px 4px 105px -28px rgba(116,154,242,1);
+    box-shadow: 0px 4px 105px -28px rgba(116,154,242,1);
+    animation-name: topFade;
+    animation-duration: 500ms;
+    transition: all ease-in 5s;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+        list-style-type: none;
+    }
+    
+    header nav ul li a{
+            padding: 1em;
+        }
+
+        header nav ul li a:hover{
+            padding: 1em;
+            border-radius: 5px;
+            background: #e2eafc;
+            transition: all ease 300ms;
+        }
+        
+        section{
+    width: 55%;
+    margin: auto;
+    padding: 1em;
+    
+}
+
+footer{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    animation-name: rightFade;
+    margin-bottom: 1em;
+    transition: all ease-in 10s;
+    animation-duration: 700ms;
+
+
+}
+.skills{
+    padding: .5em 2em;
+}
+
+.card{
+    width: 89%;
+    margin: auto;  
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #9badd8,
+    -20px -20px 60px #d1ebff;
+    align-items: center;
+    animation-name: leftFade;
+    animation-duration: 4s;
+    transition: all ease-in 10s;
+    /* animation-timing-function: cubic-bezier(0.51, 0.02, 0.36, 0.96); */
+    background: linear-gradient(315deg, rgba(171,196,255,1) 0%, rgba(182,204,254,1) 5%, rgba(193,211,254,1) 15%, rgba(194,211,254,1) 25%, rgba(204,219,253,1) 35%, rgba(215,227,252,1) 50%, rgba(226,234,252,1) 75%, rgba(237,242,251,1) 100%);
+}
+
+
+.card-button{
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 6px;
+    border: solid 1px var(--card-dark); 
+    align-items: center;
+    background: linear-gradient(140deg, rgba(171,196,255,1) 0%, rgba(182,204,254,1) 15%, rgba(193,211,254,1) 32%, rgba(204,219,253,1) 51%, rgba(215,227,252,1) 67%, rgba(226,234,252,1) 84%, rgba(237,242,251,1) 100%);
+    transform: scale(.999);
+    transition: all ease-in-out 600ms;
+}
+    .card-button:hover{
+        transform: scale(1.1);
+        transition: all ease-in-out 600ms;
+    }
+        .card-button a{
+            color: var(--card-clear);  
+            font-size: 18px;
+            font-weight: 500;
+        }
+c-head{
+    width: 100%;
+}
+.tenebrixImg{
+    margin: auto;
+    width: 100%;
+}
+
+.wrap{
+    padding-top: 7rem;
+}
+@media only screen and (max-width:100px){
+    .wrap{
+        width: 100%;
+    }
+    section{
+        width: 99%;
+    }
+    .card{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:200px){
+    section{
+        width: 100%;
+    }
+    .card{
+        width: 99%;
+    }
+}
+
+@keyframes leftFade{
+    0%{
+        transform: translateX(90px);
+        display: none;
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+
+@keyframes rightFade{
+    0%{
+        transform: translateX(-100px);
+        display: none;
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+
+@keyframes topFade{
+    0%{
+        transform: translateY(-100px);
+        display: none;
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
