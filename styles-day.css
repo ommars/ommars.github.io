@@ -1,7 +1,7 @@
 
-/* Añadir animacion
-Anadir imagenes
-Añadir diseño header */
+
+/* Anadir imagenes
+Añadir responsive */
 
 
 :root{
@@ -136,7 +136,7 @@ c-head{
 .wrap{
     padding-top: 7rem;
 }
-@media only screen and (min-width:720px){
+@media only screen and (max-width:900px){
     .wrap{
         width: 100%;
     }
@@ -146,16 +146,12 @@ c-head{
     .card{
         width: 90%;
     }
+    header a{
+        display: none;
+    }
 }
 
-@media only screen and (min-width:1000px){
-    section{
-        width: 100%;
-    }
-    .card{
-        width: 99%;
-    }
-}
+
 
 @keyframes leftFade{
     0%{
