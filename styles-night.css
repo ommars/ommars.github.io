@@ -13,6 +13,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: whitesmoke;
 }
 
 h2{
@@ -40,9 +41,9 @@ header{
     animation-name: topFade;
     animation-timing-function: ease-in-out;
     background: linear-gradient(306deg, rgba(33,37,41,1) 0%, rgba(52,58,64,1) 15%, rgba(73,80,87,1) 35%, rgba(108,117,125,1) 50%, rgba(173,181,189,1) 100%);
-    -webkit-box-shadow: 0px 18px 113px -24px rgba(108,117,125,1);
-    -moz-box-shadow: 0px 18px 113px -24px rgba(108,117,125,1);
-    box-shadow: 0px 18px 113px -24px rgba(108,117,125,1);
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);   ;
 
 }
     nav{
@@ -54,10 +55,10 @@ header{
         display: none;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(306deg, rgba(33,37,41,1) 0%, rgba(52,58,64,1) 15%, rgba(73,80,87,1) 35%, rgba(108,117,125,1) 50%, rgba(173,181,189,1) 100%);
     }
         header nav ul li {
             display: block;
-            background: lightgrey;
             margin: 0;
             padding: 1rem;
             list-style: none;
@@ -70,14 +71,15 @@ header{
                     top: 8.5%;
                     left: 0;
                     width: 100%;
-                    position: fixed;
+                    position: absolute;
                     display: block;
                 }
 
                     label {
                         box-sizing: border-box;
                         display: inline-block;
-                        border: 1px solid black;
+                        border: 1px solid whitesmoke;
+                        color: whitesmoke;
                         border-radius: 5px;
                         width: 30px;
                         height: 30px;
@@ -106,9 +108,11 @@ section{
     width: 100%; 
     padding: 1rem;
     border-radius: 20px;
-    box-shadow:  25px 25px 75px #2f353a,
-             -25px -25px 75px #393f46;
-    animation: leftFade 6s;
+    box-shadow:  15px 15px 30px #212529,
+             -15px -15px 30px #3d454b;
+    background: rgb(52,58,64);
+    background: linear-gradient(270deg, rgba(52,58,64,1) 0%, rgba(73,80,87,1) 25%, rgba(108,117,125,1) 75%, rgba(173,181,189,1) 100%);
+    animation: leftFade 2s;
 }
     .card-button:hover{
         transform: scale(1.1);
@@ -138,9 +142,9 @@ footer{
 
 @keyframes leftFade{
     0%{
-        transform: translateX(90px);
+        transform: translateX(80px);
         display: none;
-        opacity: 0.1;
+        opacity: 0.4;
     }
     to{
         opacity: 1;
@@ -171,3 +175,4 @@ footer{
         
     }
 }
+

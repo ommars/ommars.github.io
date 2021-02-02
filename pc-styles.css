@@ -1,0 +1,49 @@
+@media only screen and (min-width:900px){
+    body{
+        font-size: 16px;
+    }
+    .wrap{
+        width: 80%;
+        margin: auto;
+    }
+    section{
+        width: 75%;
+        margin: auto;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+    }
+
+    header nav ul{
+        display: flex;
+        background: none;
+    }
+    header nav ul li{
+        border-bottom: none;
+    } 
+    input{
+        display: none;
+    }
+    label{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    body{
+        font-size: 16px;
+    }
+    .wrap{
+        width: 75%;
+        margin: auto;
+    }
+    section{
+        width: 65%;
+        margin: auto;
+    }
+    .card{
+        width: 75%;
+        margin: auto;
+    }
+}

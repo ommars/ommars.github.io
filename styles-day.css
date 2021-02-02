@@ -39,10 +39,10 @@ header{
     animation-duration: .5s;
     animation-name: topFade;
     animation-timing-function: ease-in-out;
-    background: linear-gradient(140deg, rgba(171,196,255,1) 0%, rgba(182,204,254,1) 5%, rgba(193,211,254,1) 15%, rgba(194,211,254,1) 25%, rgba(204,219,253,1) 35%, rgba(215,227,252,1) 50%, rgba(226,234,252,1) 75%, rgba(237,242,251,1) 86%, rgba(255,255,255,1) 100%);
-    -webkit-box-shadow: 0px 4px 105px -28px rgba(116,154,242,1);
-    -moz-box-shadow: 0px 4px 105px -28px rgba(116,154,242,1);
-    box-shadow: 0px 4px 105px -28px rgba(116,154,242,1);
+    background: linear-gradient(145deg, #b7d2ff, #9ab0e6);
+    box-shadow:  15px 15px 40px #899dcc,
+                 -15px -15px 40px #cdebff;
+    
 
 }
     nav{
@@ -54,14 +54,15 @@ header{
         display: none;
         align-items: center;
         justify-content: center;
+        background: linear-gradient(145deg, #b7d2ff, #9ab0e6);
+
     }
         header nav ul li {
             display: block;
-            background: lightgrey;
             margin: 0;
             padding: 1rem;
             list-style: none;
-            border-bottom: 1px solid grey;
+            border-bottom: solid 1px #81a1ec;
         }
             input {
                 display: none;
@@ -106,8 +107,10 @@ section{
     width: 100%; 
     padding: 1rem;
     border-radius: 20px;
-    box-shadow:  20px 20px 60px #9badd8,
-    -20px -20px 60px #d1ebff;
+    background: rgb(141,171,240);
+    background: linear-gradient(324deg, rgba(141,171,240,1) 0%, rgba(156,184,247,1) 15%, rgba(193,211,254,1) 30%, rgba(204,219,253,1) 50%, rgba(215,227,252,1) 55%, rgba(226,234,252,1) 65%, rgba(237,242,251,1) 80%, rgba(255,255,255,1) 100%);
+    box-shadow:  10px 10px 25px #7889b3,
+    -10px -10px 25px #bcd7ff;
     animation: leftFade 6s;
 }
     .card-button:hover{
@@ -126,7 +129,6 @@ section{
                 border: none;
                 border-radius: 10px;
                 background: linear-gradient(140deg, rgba(171,196,255,1) 0%, rgba(182,204,254,1) 5%, rgba(193,211,254,1) 15%, rgba(194,211,254,1) 25%, rgba(204,219,253,1) 35%, rgba(215,227,252,1) 50%, rgba(226,234,252,1) 75%, rgba(237,242,251,1) 86%, rgba(255,255,255,1) 100%);
-
             }
 
 footer{
@@ -167,5 +169,4 @@ footer{
         opacity: 1;
         
     }
-}
 }
