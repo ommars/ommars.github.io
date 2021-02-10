@@ -1,3 +1,5 @@
+
+
 @media only screen and (min-width:900px){
     body{
         font-size: 16px;
@@ -11,10 +13,13 @@
         margin: auto;
     }
     .card{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
-
+    header{
+        background: var(--clear);
+        padding: .4rem 1.2rem;
+    }
     header nav ul{
         display: flex;
         background: none;
@@ -22,17 +27,24 @@
     header nav ul li{
         border-bottom: none;
     } 
+    header nav ul li a{
+        color: var(--main);
+    }
     input{
         display: none;
     }
     label{
         display: none;
     }
+    .grande{
+        width:100%
+    }
 }
 
 @media only screen and (min-width:1000px){
     body{
         font-size: 16px;
+
     }
     .wrap{
         width: 75%;
@@ -40,10 +52,20 @@
     }
     section{
         width: 65%;
-        margin: auto;
+        margin: 5em auto;
     }
     .card{
-        width: 75%;
+        width: 90%;
         margin: auto;
+    }
+    .grande{
+        /* top: -10%; */
+        width:100%;
+    }
+    .big{
+        font-weight: 500;
+        font-size: 40px;
+        /* color: var(--main); */
+
     }
 }

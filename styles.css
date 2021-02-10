@@ -1,0 +1,205 @@
+:root{
+    --main: #2F80ED;
+    --secondary: #27AE60;
+    --dark: #0a0909d0;
+    --clear: #E0E0E0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+h2{
+    animation-name: rightFade;
+    margin: 1.5rem 0;
+    /* transition: all ease-in 10s; */
+    animation-duration: 700ms;
+}
+body{
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: small;
+    background: var(--clear);
+} 
+
+header{
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: .4rem;
+    align-items: center;
+    background-color: var(--main);
+    
+                }
+                nav{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                header nav ul{
+                    display: none;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: var(--clear);
+                    z-index: 2;
+                    text-align: center;
+                    top: 7.5%;
+                    left: 0;
+                    width: 99.9%;
+                }
+                header nav ul li {
+                    display: block;
+                    margin: 0;
+                    padding: 1rem;
+                    list-style: none;
+                }
+                
+                header nav ul li a{
+                    color: var(--main)
+                    
+                }
+
+            input {
+                display: none;
+            }
+                input:checked  ~ ul{
+                    top: 7.5%;
+                    left: 0;
+                    width: 99.9%;
+                    position: fixed;
+                    display: block;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                    label {
+                        box-sizing: border-box;
+                        display: inline-block;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        font-weight: bold;
+                        text-align: center;
+                        user-select: none;
+                    }
+                  
+    .submenu{
+        width: 100%;
+        /* position: fixed; */
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+.head{
+    display: flex;
+    position: relative;
+}
+
+.headImg{
+    width: 50%;
+}
+
+.texto{
+    width: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background: var(--dark);
+    color: var(--main);
+}
+
+.big{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+section{
+    margin: 2em;
+}        
+
+.card{
+    width: 100%; 
+    padding: 1rem;
+    border-radius: 20px;
+    animation: leftFade 6s;
+    box-shadow: 5px 5px 20px #949494,
+            -5px -5px 20px #dddddd;
+}
+    .card-button:hover{
+        transform: scale(1.1);
+        transition: all ease-in-out 600ms;
+    }
+
+    .card-button{
+        font-size: 16px;
+        margin-top: .5rem;
+    }
+
+        c-head .tenebrixImg{
+            width: 100%;
+            max-width: 700px;
+            margin: auto auto .5rem auto;
+            display: flex;
+        }
+        .cTitle{
+            font-weight: 600;
+            font-size: 20px;
+        }
+        c-body{
+            font-weight: 300;
+            font-size: 16px;;
+        }
+            .card-button{
+                width: 100%;
+                padding: .5rem;
+                border: solid 1px var(--secondary);
+                border-radius: 10px;
+                background-color: var(--clear);
+            }
+
+footer{
+    text-align: center;
+    padding: 1em;
+    background-color: var(--secondary);
+    margin-top: 1em;
+}
+footer a{
+    color: var(--clear);
+}
+
+@keyframes leftFade{
+    0%{
+        transform: translateX(90px);
+        display: none;
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
+
+@keyframes rightFade{
+    0%{
+        transform: translateX(-100px);
+        display: none;
+        opacity: 0.2;
+    }
+    to{
+        opacity: 1;
+        
+    }
+}
