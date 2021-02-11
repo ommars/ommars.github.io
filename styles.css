@@ -38,9 +38,8 @@ header{
     justify-content: space-between;
     padding: .4rem;
     align-items: center;
-    background-color: var(--clear);
-    
-                }
+    background-color: var(--clear);    
+}
                 nav{
                     display: flex;
                     justify-content: center;
@@ -126,7 +125,7 @@ header{
     text-align: center;
     align-items: center;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
 }
 section{
     margin: 2em;
